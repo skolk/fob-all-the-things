@@ -7,8 +7,9 @@ Fob all the things (known as FATT) has the goal of of creating an open source pa
 - [Status](#Status)
 - [History](#History)
 - [Resources](#Resources)
-- [Outline](#Outline)
 - [Branches](#Branches) 
+- [Outline](#Outline)
+
 
 # Status
 FATT is currently in the process of undergoing a define freeze, Dev kit push, and Software synchronization:
@@ -31,7 +32,7 @@ FATT was conceived when maker spaces realized they were continually re-inventing
 at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their progress on with FATT and created a working group in slack, landing website page, and several git repos.
 
 ***
-#Resources
+# Resources
 - [Ace Monster Toys presentation at NomCon-2019](https://www.acemonstertoys.org/fatt-at-nomcon/)
 - [slide presentation](https://docs.google.com/presentation/d/1t7AaRWNNl93JGzS-Eg19WnUrunBbh1UaYufZjOnOvw4/edit#slide=id.p)
 - [A Fob All The Things Landing Page](https://foballthethings.org/ ) where you can order dev kits
@@ -39,6 +40,7 @@ at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their pro
 - [Nom Com Dashboard](https://nomcon.foballthethings.org/)  
 - [wiki organizing](https://www.makerhappen.org/fatt)
 - [Join the Slack](https://fatt-slack-auth.herokuapp.com/)
+### Branches 
 - [AMT FATT] Ace Monster Toys FATT setup
 - [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
 - [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
@@ -56,6 +58,8 @@ For instance it is a goal of FATT to have third party and local database access.
 ## Hardware:
 At the core of FATT is the key fob, a RFID tag that communicates with a RFID reader easily connected to a USB into a Raspberry Pi 3B. The Fob is core to the system, how everything else happens is to support the space ensuring that the system is reliable and secure.
 
+Because Raspbarry Pi's communicate on 3.3v logic, and the majority of industrial system are based on 12V or higher a logic stepper is necessay to engage with both electro mechanica system, the RFID communication, and Relays invovled. 
+
 ## Software
 The local Raspberry pi's job is to interface with the RFID, check if the resource has permissions and then recored the request. The Acess point must store it's database either locally or remotly; and check the database. CUrrently the systme is set up to ping the data base every 100ms to ensure up to date resources.
 
@@ -66,12 +70,6 @@ The user database and permissions can either be accessed via ssh on or held remo
 - [Apercot](https://www.wildapricot.com/) is a potential membership resource. 
 - [ wooo ](https://woocommerce.com/)  for ATM door access
 
-#Existing BOM for DEV Kit:
+# Existing BOM for DEV Kit BOM's:
 - [MMS Kit](https://docs.google.com/spreadsheets/d/1saBPHnn_E8FyzVhVKWeM24Enc3zIGl8CUS3w7r8rCs0/edit#gid=0)
 - [FATT Dev Kit](https://docs.google.com/spreadsheets/d/19eD3aGPXen2XFFg_nxeCvd6DRHfIHloh1Acnxarrmks/edit?usp=sharing)
-
-***
-# Branches
-- [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
-- [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
-- [Maker Space Controll Access Project page](http://koljawindeler.github.io/macs/)[Github](https://github.com/KoljaWindeler/macs/tree/master/website) 

@@ -32,22 +32,20 @@ at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their pro
 
 ***
 #Resources
-- [Ace Monster Toys presentation](https://www.acemonstertoys.org/fatt-at-nomcon/)
+- [Ace Monster Toys presentation at NomCon-2019](https://www.acemonstertoys.org/fatt-at-nomcon/)
 - [slide presentation](https://docs.google.com/presentation/d/1t7AaRWNNl93JGzS-Eg19WnUrunBbh1UaYufZjOnOvw4/edit#slide=id.p)
-- [A landing page](https://foballthethings.org/ ) where you can order dev kits
+- [A Fob All The Things Landing Page](https://foballthethings.org/ ) where you can order dev kits
 - [The 2019 working version for the presentation](https://github.com/acemonstertoys/fatt-nomcon-2019)
 - [Nom Com Dashboard](https://nomcon.foballthethings.org/)  
 - [wiki organizing](https://www.makerhappen.org/fatt)
 - [Join the Slack](https://fatt-slack-auth.herokuapp.com/)
+- [AMT FATT] Ace Monster Toys FATT setup
 - [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
 - [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
+- [Maker Space Controll Access Project page](http://koljawindeler.github.io/macs/)[Github]
+(https://github.com/KoljaWindeler/macs/tree/master/website) 
+- [NOVA PASS system](https://drive.google.com/file/d/1nC3Tc5U4PZIDftUa86jNpgwb28R_OMqJ/view) 
 
-AMT Doors:
-[AMTDoor3](https://github.com/acemonstertoys/amtdoor3)
-[AMTDoor2](https://github.com/acemonstertoys/amtdoor2)
-[AMT Door](https://github.com/acemonstertoys/amtdoor)
-[AMT RFID Laser](https://github.com/acemonstertoys/laser-rfid)
-[AMT Auth(fob authorization)](https://github.com/acemonstertoys/makerspace-auth)
 
 ***
 # Outline

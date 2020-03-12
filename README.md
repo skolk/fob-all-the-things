@@ -1,4 +1,4 @@
-# fob-all-the-things
+# Fob-All-The-Things
 access management for maker spaces
 
 Fob all the things (known as FATT) has the goal of of creating an open source package of hardware and software to allow maker spaces and community groups to install access points with minimal hardware and coding knowlege (nothing outside of a terminal command prompt)
@@ -12,19 +12,13 @@ Fob all the things (known as FATT) has the goal of of creating an open source pa
 
 
 # Status
-FATT is currently in the process of undergoing a define freeze, Dev kit push, and Software synchronization:
-
-## Current Asks
-- [ ] Create Hardware version
-- [ ] Define Software Scope and Create version with in bounds
-- [ ] Create Software Package
-- [ ] Produce 'plug and play' package in as MVP (POC has been established at Nom Com).
+There are several groups working on FATT forked projects, with their own hardware and software, feel free to contribute. 
 
 ## Where this project is now:
-FATT is active in X maker spaces running slightly different frameworks and hardware.
+FATT is active in at least 4 maker spaces running slightly different frameworks and hardware.
 
 ## Where we want to go:
-
+Beyond the bottle neck that most maker spaces get tripped up at.
 
 # History
 FATT was conceived when maker spaces realized they were continually re-inventing the wheel to sove the same problem; groups would consistently get to the same point; have the same frustrations, and either crash and burn or move on to a proprietary system.
@@ -40,7 +34,7 @@ at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their pro
 - [Nom Com Dashboard](https://nomcon.foballthethings.org/)  
 - [wiki organizing](https://www.makerhappen.org/fatt)
 - [Join the Slack](https://fatt-slack-auth.herokuapp.com/)
-### Branches 
+## Branches 
 - [AMT FATT] Ace Monster Toys FATT setup
 - [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
 - [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
@@ -53,10 +47,8 @@ at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their pro
 # Outline
 The FATT framework's design intent is to be a platform to allow different code bases, hardware, and oversight for communities to grant access and track user resources; this is determined by establishing core use cases; divergent points, and convergence points.
 
-For instance it is a goal of FATT to have third party and local database access. (such as AWS vs a local RaspberryPi)
-
 ## Hardware:
-At the core of FATT is the key fob, a RFID tag that communicates with a RFID reader easily connected to a USB into a Raspberry Pi 3B. The Fob is core to the system, how everything else happens is to support the space ensuring that the system is reliable and secure.
+At the core of FATT is the key fob, a RFID tag that communicates with a Raspberry Pi 3B. How everything else happens is to support the space ensuring that the system is reliable and secure.
 
 Because Raspbarry Pi's communicate on 3.3v logic, and the majority of industrial system are based on 12V or higher a logic stepper is necessay to engage with both electro mechanica system, the RFID communication, and Relays invovled. 
 

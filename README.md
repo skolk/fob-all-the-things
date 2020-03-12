@@ -3,8 +3,6 @@ access management for maker spaces
 
 Fob all the things (known as FATT) has the goal of of creating an open source package of hardware and software to allow maker spaces and community groups to install access points with minimal hardware and coding knowlege (nothing outside of a terminal command prompt)
 ***
-
-***
 # Directory
 - [Status](#Status)
 - [History](#History)
@@ -66,12 +64,13 @@ The local Raspberry pi's job is to interface with the RFID, check if the resourc
 ## Backend
 The user database and permissions can either be accessed via ssh on or held remortly in a systme such as AWS, Microsoft Azure, or some thing else. The Goal of this project is to be a good pipe. How that data based system is updated (apercot?)
 
-
 ## Admin interface
-[Apercot](https://www.wildapricot.com/) is a potential membership resource. 
+- [Apercot](https://www.wildapricot.com/) is a potential membership resource. 
+- [ wooo ](https://woocommerce.com/)  for ATM door access
 
 #Existing BOM for DEV Kit:
-https://docs.google.com/spreadsheets/d/1saBPHnn_E8FyzVhVKWeM24Enc3zIGl8CUS3w7r8rCs0/edit#gid=0
+- [MMS Kit](https://docs.google.com/spreadsheets/d/1saBPHnn_E8FyzVhVKWeM24Enc3zIGl8CUS3w7r8rCs0/edit#gid=0)
+- [FATT Dev Kit](https://docs.google.com/spreadsheets/d/19eD3aGPXen2XFFg_nxeCvd6DRHfIHloh1Acnxarrmks/edit?usp=sharing)
 
 ***
 # Branches

@@ -5,23 +5,21 @@ Fob all the things (known as FATT) has the goal of of creating an open source pa
 ***
 
 ***
-#Directory
--Status
--History
--Resources
--Outline
--BOM
--Version History
+# Directory
+- [Status](#Status)
+- [History](#History)
+- [Resources](#Resources)
+- [Outline](#Outline)
+- [Branches](#Branches) 
 
 # Status
 FATT is currently in the process of undergoing a define freeze, Dev kit push, and Software synchronization:
 
 ## Current Asks
--Create Hardware version number
--Define Software Scope and Create version with in bounds
--Create Software Package
--Produce 'plug and play' package in as MVP (POC has been established at Nom Com).
--create a working MVP remake
+- [ ] Create Hardware version
+- [ ] Define Software Scope and Create version with in bounds
+- [ ] Create Software Package
+- [ ] Produce 'plug and play' package in as MVP (POC has been established at Nom Com).
 
 ## Where this project is now:
 FATT is active in X maker spaces running slightly different frameworks and hardware.
@@ -71,10 +69,13 @@ The user database and permissions can either be accessed via ssh on or held remo
 
 
 ## Admin interface
-Apercot
+[Apercot](https://www.wildapricot.com/) is a potential membership resource. 
 
 #Existing BOM for DEV Kit:
 https://docs.google.com/spreadsheets/d/1saBPHnn_E8FyzVhVKWeM24Enc3zIGl8CUS3w7r8rCs0/edit#gid=0
 
-
 ***
+# Branches
+- [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
+- [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
+- [Maker Space Controll Access Project page](http://koljawindeler.github.io/macs/)[Github](https://github.com/KoljaWindeler/macs/tree/master/website) 

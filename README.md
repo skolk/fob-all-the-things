@@ -34,16 +34,15 @@ at Nomcon 2019; Ace Monster Toys created a presentation to demonstrate their pro
 
 ***
 #Resources
-
-[Ace Monster Toys presentation](https://www.acemonstertoys.org/fatt-at-nomcon/)
-[slide presentation](https://docs.google.com/presentation/d/1t7AaRWNNl93JGzS-Eg19WnUrunBbh1UaYufZjOnOvw4/edit#slide=id.p)
-[A landing page](https://foballthethings.org/ ) where you can order dev kits
-[The 2019 working version for the presentation](https://github.com/acemonstertoys/fatt-nomcon-2019)
-[Nom Com Dashboard](https://nomcon.foballthethings.org/)  
-[wiki organizing](https://www.makerhappen.org/fatt)
-[Join the Slack](https://fatt-slack-auth.herokuapp.com/)
-[DanDudes version](https://github.com/DanDude0/MakerAccessControl)
-[Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
+- [Ace Monster Toys presentation](https://www.acemonstertoys.org/fatt-at-nomcon/)
+- [slide presentation](https://docs.google.com/presentation/d/1t7AaRWNNl93JGzS-Eg19WnUrunBbh1UaYufZjOnOvw4/edit#slide=id.p)
+- [A landing page](https://foballthethings.org/ ) where you can order dev kits
+- [The 2019 working version for the presentation](https://github.com/acemonstertoys/fatt-nomcon-2019)
+- [Nom Com Dashboard](https://nomcon.foballthethings.org/)  
+- [wiki organizing](https://www.makerhappen.org/fatt)
+- [Join the Slack](https://fatt-slack-auth.herokuapp.com/)
+- [DanDudes version](https://github.com/DanDude0/MakerAccessControl)
+- [Milwaukee Maker Space](https://github.com/DanDude0/MilwaukeeMakerspacePiFobReader)
 
 AMT Doors:
 [AMTDoor3](https://github.com/acemonstertoys/amtdoor3)

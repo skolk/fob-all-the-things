@@ -1,4 +1,4 @@
-# AMT
+# AMTFATT
 FATT (Fob all the things) vs AMTFATT
 
 The original project at nomcon-19 was titled Fob all the things, this was a project that Ace Monster Toys undertook that was
